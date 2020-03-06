@@ -145,6 +145,21 @@ nav {
     margin-bottom: 5px;
 }
 
+.first-news-section {
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: 1fr;
+}
+
+.first-articles {
+    display: flex;
+}
+
+.first-images {
+    width: 75px;
+    height: 75px;
+}
+
 @media (min-width:768px) {
 
     a {
