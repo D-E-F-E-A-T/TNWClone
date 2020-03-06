@@ -2,8 +2,11 @@ body {
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
+}
+.logo-link{
+    background-color: orangered;
 }
 
 nav {
@@ -11,10 +14,13 @@ nav {
     width: 100%;
 }
 
-.smallest-logo {
-    width:106px;
-    height:48px;
-    display: block;
+.tnw-logo{
+    height: 48px;
+    width: 106px;
+    background-image: url(assets/images/tnw.svg);
+    background-repeat: no-repeat;
+    background-size: 66px 16px;
+    background-position: center;
 }
 
 .header-buttons {
@@ -65,4 +71,69 @@ nav {
     color: black;
     font-size: 14px;
     font-weight: 200;
+}
+
+.black-nav,
+.top-menu {
+    display: none;
+}
+
+@media (min-width:768px) {
+
+    .bar-container {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .black-nav {
+        display: flex;
+        height: 32px;
+        background-color: black;
+        color: #afafaf;
+    }
+
+    .fa-search {
+        color: #afafaf;
+        font-size: 17px;
+    }
+
+    .top-menu {
+        color: #afafaf;
+        display: flex;
+        height: 48px;
+        background-color: #fefefe;
+    }
+
+    .header-buttons-container {
+        display: none;
+    }
+
+    .tnw-logo{
+        height: 80px;
+    }
+
+    .upper-links {
+        display: flex;
+        flex-basis: 100%;
+        list-style: none;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    .list-item {
+        margin-right: 15px;
+    }
+
+    .search-box {
+        border: 1px solid lightgray;
+        justify-self: flex-end;
+        align-self: center;
+        margin-right: 20px;
+        padding: 5px;
+    }
+
+    .header-alert-div {
+        height: 30px;
+    }
 }
