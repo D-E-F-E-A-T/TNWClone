@@ -14,6 +14,10 @@ nav {
     width: 100%;
 }
 
+.list-item-big-screen {
+    display: none
+}
+
 .tnw-logo{
     height: 48px;
     width: 106px;
@@ -80,6 +84,10 @@ nav {
 
 @media (min-width:768px) {
 
+    a {
+        color: #afafaf;
+    }
+
     .bar-container {
         display: flex;
         flex-direction: column;
@@ -91,6 +99,8 @@ nav {
         height: 32px;
         background-color: black;
         color: #afafaf;
+        justify-content: space-between;
+        font-size: 14px;
     }
 
     .fa-search {
@@ -119,21 +129,89 @@ nav {
         list-style: none;
         align-items: center;
         justify-content: flex-start;
+        width: 100%;
+    }
+
+    .upper-links-left {
+        padding-left: 20px;
+
+    }
+
+    .upper-links-left #white-link {
+        color:white;
+    }
+
+    .upper-links-left li {
+        flex-basis:0.6;
+    }
+
+    .upper-links-left :last-child {
+        flex:1;
+    }
+
+    .upper-links-right {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+
+    .upper-links-right li {
+        margin-left: 15px;
+    }
+
+    .black-nav a:hover {
+        color: white;
     }
     
     .list-item {
         margin-right: 15px;
     }
 
+    .top-menu .list-item a:hover {
+        color: black;
+    }
+
     .search-box {
-        border: 1px solid lightgray;
+        border-left: 1px solid lightgray;
         justify-self: flex-end;
         align-self: center;
-        margin-right: 20px;
-        padding: 5px;
+        width: 60px;
+        height:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .seach-box i {
+        display: block;
+       
     }
 
     .header-alert-div {
         height: 30px;
+        justify-content: flex-start;
     }
+
+    .header-alert-div a {
+        margin-left: 130px;
+    }
+}
+
+@media(min-width: 1024px) {
+   .logo-link {
+       display: none;
+   }
+
+   .header-alert-div a {
+        margin-left: 20px;
+   }
+
+   .upper-links {
+       padding-left: 20px;
+   }
+
+   .list-item-big-screen {
+    display: block;
+}
 }
