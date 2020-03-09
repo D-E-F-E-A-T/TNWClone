@@ -85,6 +85,9 @@ nav {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   height: 80vh;
+  grid-gap: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #big-logo {
@@ -145,19 +148,76 @@ nav {
   margin-bottom: 5px;
 }
 
-.first-news-section {
+.grid-wrapper {
   display: grid;
   grid-template-rows: repeat(8, 1fr);
   grid-template-columns: 1fr;
 }
 
+.first-news-section {
+  padding-left: 3%;
+}
+
+.first-news-section h2 a {
+  color: #f42;
+  font-size: 28px;
+}
+
+.first-news-section h2 a:hover {
+  color: #000;
+  font-size: 28px;
+}
+
+
+.first-news-section h2{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 90px;
+  margin-bottom: 8px;
+  
+}
+
 .first-articles {
   display: flex;
+  height: auto;
+  margin-top: 15px;
 }
 
 .first-images {
   width: 75px;
   height: 75px;
+}
+
+.first-new-section-text {
+   position: flex;
+   flex-direction: column;
+   align-items: space-between;
+   height: 75px;
+
+}
+
+.first-new-section-text h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 12px;
+
+}
+
+
+.first-new-section-text h3 a:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.first-new-section-text h3 a{
+  color: #000;
+  font-size: 14px;
+}
+
+.first-new-section-text p {
+  margin: 8px 12px;
+  font-size: 12px;
+  color: #AAA;
 }
 
 @media (min-width: 768px) {
@@ -293,6 +353,34 @@ nav {
   .main-paragraph {
     font-size: 40px;
   }
+
+  
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+  }
+
+  .first-articles {
+    flex-direction: column;
+  }
+
+  .first-images {
+    width: 100%;
+    height: 130px;
+  }
+
+  .first-new-section-text h3{
+    margin-left: 0;
+  }
+
+  .first-new-section-text p{
+    margin-left: 0;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -340,4 +428,36 @@ nav {
   .main-paragraph {
     font-size: 50px;
   }
+
+  .first-news-section {
+    padding: 0 15%;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 25px;
+    
+  }
+
+  .first-articles {
+    margin-top: 0;
+  }
+
+  .first-news-section h2 a {
+    margin-bottom: 15px;
+  }
+
+  .first-new-section-text p {
+    font-size: 13px;
+  }
+
+  .first-new-section-text h3 a{
+    font-size: 16px;
+  }
+
+  
+
+  
 }
