@@ -3,6 +3,14 @@ body {
   box-sizing: border-box;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 99vw;
+    background-color: #fff;
+}
+
 a {
   text-decoration: none;
 }
@@ -88,6 +96,11 @@ nav {
   grid-gap: 10px;
   padding-left: 8px;
   padding-right: 8px;
+}
+
+main {
+    position: relative;
+    top: 111px;
 }
 
 #big-logo {
@@ -586,6 +599,8 @@ nav {
 }
 
 footer {
+    position: relative;
+    top: 111px;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -629,6 +644,10 @@ footer ul {
     font-size: 13px;
     color: #aaa;
     margin: 0 4px;
+}
+
+.info-items a {
+    color: #aaa;
 }
 
 .info-items a:hover {
