@@ -571,6 +571,16 @@ nav {
     border-bottom: 1px solid #eee;
 }
 
+.crossline {
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.price-last {
+    color: #555;
+    font-size: 14px;
+}
+
 @media (min-width: 768px) {
   a {
     color: #afafaf;
@@ -774,6 +784,10 @@ nav {
 
 .main-info {
     height: 40vh;
+}
+
+.last-images {
+    height: 100%;
 }
 
 }
