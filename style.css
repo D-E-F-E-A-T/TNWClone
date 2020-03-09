@@ -220,6 +220,10 @@ nav {
   color: #AAA;
 }
 
+.funding-rounds-wrapper {
+    width: 100%;
+}
+
 .funding-rounds {
   margin-top: 20px;
   margin-left: 20px;
@@ -261,6 +265,8 @@ nav {
 }
 
 .funding-rounds-box {
+    flex-basis: 100%;
+    flex: 1;
   background-color: #fffaf8;
 }
 
@@ -275,6 +281,10 @@ nav {
   padding: 10.6666666667px 16px 10.6666666667px 84px;
   font-weight: 700;
   margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
 }
 
 .funding-rounds-price-wrapper {
@@ -341,6 +351,224 @@ nav {
 
 .funding-bottom-info {
     margin-bottom: 25px;
+}
+
+.new-topics-wrapper {
+    margin-top: 35px;
+    padding: 0 20px;
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.topic-title a {
+    color: orangered;
+    font-size: 28px;
+}
+
+.topic-title a:hover {
+    color: #000
+}
+
+.main-info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 58vh;
+    padding: 15px;
+}
+
+.main-info a {
+    color: #fff;
+}
+
+.main-info a:hover {
+    text-decoration: underline;
+}
+
+
+.main-info h3 {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.main-info h2 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-info p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.topic-background-1 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/1more.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-background-2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/2more.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-background-3 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/3more.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-background-4 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/4more.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-background-5 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/5more.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-background-6 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/6more.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-background-7 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/7more.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-background-8 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 1)), url(assets/images/8more.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.second-main {
+    background-color: rgba(255,68,34,.08);
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    color: orangered;
+}
+
+.second-main a {
+    color: orangered;
+}
+
+.second-info h2 {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.second-info p {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.side-image {
+    min-height: 96px;
+    min-width: 96px;
+}
+
+.side1 {
+    background-image: url(assets/images/1extra.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.side2 {
+    background-image: url(assets/images/2extra.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.side3 {
+    background-image: url(assets/images/3extra.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.side4 {
+    background-image: url(assets/images/4extra.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.side5 {
+    background-image: url(assets/images/5extra.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.side6 {
+    background-image: url(assets/images/6extra.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.side7 {
+    background-image: url(assets/images/7extra.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.side8 {
+    background-image: url(assets/images/8extra.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.topic-articles {
+    font-size: 13px;
+    padding-left: 0;
+}
+
+.topic-articles a {
+    color: #666;
+}
+
+.topic-articles li::before {
+    color: orangered;
+    content: "\2022";
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.topic-articles li {
+    list-style: none;
+    padding: 8px 0 8px 6px;
+    border-bottom: 1px solid #eee;
 }
 
 @media (min-width: 768px) {
@@ -535,6 +763,17 @@ nav {
 
 .funding-rounds-box {
     margin: 10px;
+    min-width: 20%;
+}
+
+.new-topics-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 18px;
+}
+
+.main-info {
+    height: 40vh;
 }
 
 }
@@ -617,6 +856,10 @@ nav {
       padding: 0 5%;
   }
 
+  .funding-rounds-wrapper {
+    width: 100%;
+}
+
   .funding-rounds-header {
     display: flex;
     flex-direction: row;
@@ -630,6 +873,12 @@ nav {
 
   .funding-hidden {
     display: block;
+}
+
+.new-topics-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 22px;
 }
 
 }
