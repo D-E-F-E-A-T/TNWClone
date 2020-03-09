@@ -948,7 +948,7 @@ footer ul {
   }
   
   .funding-rounds {
-      padding: 0 5%;
+      padding: 0 3%;
   }
 
   .funding-rounds-wrapper {
@@ -974,6 +974,7 @@ footer ul {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 22px;
+    padding: 0 5%;
 }
 
 }
