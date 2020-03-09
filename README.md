@@ -2,8 +2,7 @@
 
 The objective of the project is to emphasize 'cathy' sections of the Smashing Magazine front page, as well to captivate the typography, in order to better understand UX.
 
-![image](https://user-images.githubusercontent.com/45266473/76028979-ed741500-5f33-11ea-8b3f-d772e62c66b9.png)
-
+![image](https://user-images.githubusercontent.com/58086801/76264615-51e2ed00-6230-11ea-83f9-b17f66b8e0fb.png)
 For this project we used CSS-grid, flex-box and floats to position the elements on the page. We didn't actually completely clone the page, just it's layout.
 We also used different shades of gray to highlight the visually dominant content with darker shade of gray while we use lighter shades for less
 dominant content. We used three different font styles from Google Fonts, different font-weihts to mimic the typography of the target page. 
