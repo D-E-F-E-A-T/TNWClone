@@ -209,8 +209,8 @@ main {
   color: #fff;
 }
 
-.deals-head a:hover {
-  color: #000;
+.links-container a {
+  color: #aaa;
 }
 
 .info-items a {
@@ -227,6 +227,14 @@ main {
   font-size: 14px;
 }
 
+.deals-head a:hover {
+  color: #000;
+}
+
+.info-items a {
+  color: #aaa;
+}
+
 .topic-title a:hover {
   color: #000;
 }
@@ -235,10 +243,6 @@ main {
   font-size: 13px;
   color: #aaa;
   margin: 0 4px;
-}
-
-.links-container a {
-  color: #aaa;
 }
 
 .main-info a:hover {
@@ -851,7 +855,7 @@ footer ul {
     width: 100%;
     height: 100%;
   }
-  
+
   .first-new-section-text h3 {
     margin-left: 0;
   }
@@ -965,10 +969,6 @@ footer ul {
 
   .first-articles {
     margin-top: 0;
-  }
-
-  .info-items a {
-    color: #aaa;
   }
 
   .topic-title a {
