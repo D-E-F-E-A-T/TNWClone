@@ -20,7 +20,7 @@ https://rawcdn.githack.com/markonikovic/TNWClone/ee6cd5f0bb3b7ae40d486215164818e
 
 ## Getting Started
 
-To download the content clone: git@github.com:markonikovic/TNWClone.git
+To download the content clone: (git@github.com:markonikovic/TNWClone.git)
 
 
 ## Authors
