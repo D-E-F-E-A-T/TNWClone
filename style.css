@@ -209,6 +209,14 @@ main {
   color: #fff;
 }
 
+.deals-head a:hover {
+  color: #000;
+}
+
+.info-items a {
+  color: #aaa;
+}
+
 .first-news-section h2 a {
   color: #f42;
   font-size: 28px;
@@ -229,7 +237,7 @@ main {
   margin: 0 4px;
 }
 
-.info-items a {
+.links-container a {
   color: #aaa;
 }
 
@@ -608,10 +616,6 @@ main {
   color: #f42;
 }
 
-.deals-head a:hover {
-  color: #000;
-}
-
 .crossline {
   text-decoration: line-through;
   font-size: 12px;
@@ -643,10 +647,6 @@ footer {
   width: 100%;
   align-items: center;
   justify-content: center;
-}
-
-.links-container a {
-  color: #aaa;
 }
 
 .links-container i {
