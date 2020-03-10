@@ -16,7 +16,7 @@ We used CSS-grid and flex-box to position the elements on the page.
 
 ## Live Demo
 
-https://rawcdn.githack.com/markonikovic/TNWClone/ee6cd5f0bb3b7ae40d486215164818edfc8fb9ba/index.html
+https://rawcdn.githack.com/markonikovic/TNWClone/2952b60314879e41afa79dd478513a893233a0d5/index.html
 
 ## Getting Started
 
