@@ -229,6 +229,10 @@ main {
   margin: 0 4px;
 }
 
+.info-items a {
+  color: #aaa;
+}
+
 .main-info a:hover {
   text-decoration: underline;
 }
