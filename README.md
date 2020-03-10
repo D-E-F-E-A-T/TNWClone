@@ -1,11 +1,12 @@
 ## TNW CLONE
 
-The objective of the project is to emphasize 'cathy' sections of the Smashing Magazine front page, as well to captivate the typography, in order to better understand UX.
+This project's about making a fully responsive clone of The Next Web homepage.
 
 ![image](https://user-images.githubusercontent.com/58086801/76264615-51e2ed00-6230-11ea-83f9-b17f66b8e0fb.png)
-For this project we used CSS-grid, flex-box and floats to position the elements on the page. We didn't actually completely clone the page, just it's layout.
-We also used different shades of gray to highlight the visually dominant content with darker shade of gray while we use lighter shades for less
-dominant content. We used three different font styles from Google Fonts, different font-weihts to mimic the typography of the target page. 
+For this project we used madia queries to tell the browser how to render our website.
+We used three different break points. 
+1 for less than 768px, one for between 768 and 1024 px and one for more than 1024px.
+We used CSS-grid and flex-box to position the elements on the page. 
 
 ## Built With
 
@@ -15,12 +16,11 @@ dominant content. We used three different font styles from Google Fonts, differe
 
 ## Live Demo
 
-https://rawcdn.githack.com/alvaropazz/smashing-layout/a0207ef47fa21840cb0a4e233f919e4581e0f3c2/index.html
-
+https://rawcdn.githack.com/markonikovic/TNWClone/ee6cd5f0bb3b7ae40d486215164818edfc8fb9ba/index.html
 
 ## Getting Started
 
-To download the content clone: git@github.com:alvaropazz/smashing-layout.git
+To download the content clone: git@github.com:markonikovic/TNWClone.git
 
 
 ## Authors
@@ -42,7 +42,7 @@ To download the content clone: git@github.com:alvaropazz/smashing-layout.git
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/markonikovic/TNWClone/issues).
 
 ## Show your support
 

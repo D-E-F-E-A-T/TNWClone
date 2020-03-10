@@ -59,19 +59,19 @@
 
     <main>
         <div class="big-articles">
-            <div class="big-item1">
+            <div class="big-item1" onclick="location.href='#';">
                 <img id="big-logo" src="assets/images/tnw.svg" alt="logo">
                 <p class="date">Friday — March 6, 2020</p>
                 <p class="big-paragraphs main-paragraph">This algorithm could improve emergency responses by removing lies spread on Twitter</p>
-                <div class="big-info"><span>by Thomas Macaulay</span> <span><i class="far fa-clock"></i></span> <span>47 minutes ago</span> <span><i class="fas fa-share-alt"></i></span></div>
+                <div class="big-info"><span>by <a href="">Thomas Macaulay</a></span> <span><i class="far fa-clock"></i></span> <span>47 minutes ago</span> <span><i class="fas fa-share-alt"></i></span></div>
             </div>
-            <div class="big-item2">
+            <div class="big-item2" onclick="location.href='#';"> 
                 <p class="big-paragraphs">Reddit, PayPal, Spotify, and more are speaking at TNW’s tech festival in Amsterdam</p>
             </div>
-            <div class="big-item3">
+            <div class="big-item3" onclick="location.href='#';">
                 <h2 class="big-title">INSIGHTS</h2>
                 <p class="big-paragraphs">‘Coronavirus is the black swan of 2020,’ warns Sequoia Capital</p>
-                <div class="big-info"><span>by David Canellis</span> <span><i class="far fa-clock"></i></span> <span>1 hour ago</span> <span><i class="fas fa-share-alt"></i></span></div>
+                <div class="big-info"><span>by <a href="">David Canellis</a></span> <span><i class="far fa-clock"></i></span> <span>1 hour ago</span> <span><i class="fas fa-share-alt"></i></span></div>
             </div>
         </div>
 
@@ -82,56 +82,56 @@
                 <a href=""><img class="first-images" src="assets/images/thumbnail3.jpg" alt="black-swan"></a>
                 <div class="first-new-section-text">
                     <h3><a href="#">'Coronavirus is the black swan of 2020,' warns Sequoia Capital</a></h3>
-                    <p>David Canellis • 5 hours ago</p>
+                    <p><a class="author-of-first" href="">David Canellis</a> • 5 hours ago</p>
                 </div>
             </article>
             <article class="first-articles">
                 <a href=""><img class="first-images" src="assets/images/thumbnail1.jpg" alt="pollution"></a>
                 <div class="first-new-section-text"> 
                     <h3><a href="#">Can face masks really protect us from toxic pollutants?</a></h3>
-                    <p>The Conversation • 6 hours ago</p>
+                    <p><a class="author-of-first" href="">The Conversation</a> • 6 hours ago</p>
                 </div>
             </article>
             <article class="first-articles">
                 <a href=""><img class="first-images" src="assets/images/thumbnail2.png" alt="joerogan"></a>
                 <div class="first-new-section-text">
                     <h3><a href="#">This tool automatically removes the background from any video or GIF</a></h3>
-                    <p>Mix • 8 hours ago</p>
+                    <p><a class="author-of-first" href="">Mix</a> • 8 hours ago</p>
                 </div>
             </article>
             <article class="first-articles">
                 <a href=""><img class="first-images" src="assets/images/thumbnail4.png" alt="cyber-security"></a>
                 <div class="first-new-section-text">
                     <h3><a href="#">Clearview AI can be fun — if you’re dirty, stinking rich</a></h3>
-                    <p>Thomas Macaulay • 8 hours ago</p>
+                    <p><a class="author-of-first" href="">Thomas Macaulay</a> • 8 hours ago</p>
                 </div>
             </article>
             <article class="first-articles">
                 <a href=""><img class="first-images" src="assets/images/thumbnail5.jpg" alt="stocks"></a>
                 <div class="first-new-section-text">
                     <h3><a href="#">Data scientists are pushing the boundaries of analytics and making a fortune. This is how you can join them.</a></h3>
-                    <p>TNW Deals • 9 hours ago</p>
+                    <p><a class="author-of-first" href="">TNW Deals</a> • 9 hours ago</p>
                 </div>
             </article>
             <article class="first-articles">
                 <a href=""><img class="first-images" src="assets/images/thumbnail6.png" alt="earphones"></a>
                     <div class="first-new-section-text">
                     <h3><a href="#">A love letter to the OnePlus Bullets Wireless 2 earbuds — the only reliable thing in my life</a></h3>
-                    <p>Ivan Mehta • 9 hours ago</p>
+                    <p><a class="author-of-first" href="">Ivan Mehta</a> • 9 hours ago</p>
                 </div>
             </article>
             <article class="first-articles">
                 <a href=""><img class="first-images" src="assets/images/thumbnail7.jpg" alt="robots"></a>
                 <div class="first-new-section-text">
                     <h3><a href="#">Satoshi Nakaboto: ‘New York power plant makes $50K a day mining Bitcoin’</a></h3>
-                    <p>Satoshi Nakaboto • 11 hours ago</p>
+                    <p><a class="author-of-first" href="">Satoshi Nakaboto</a> • 11 hours ago</p>
                 </div>
             </article>
             <article class="first-articles">
                 <a href=""><img class="first-images" src="assets/images/thumbnail8.jpg" alt="router"></a>
                 <div class="first-new-section-text">
                     <h3><a href="#">How the IEEE 802 group helped shape the modern internet with Ethernet and Wi-Fi protocols</a></h3>
-                    <p>Ivan Mehta • 12 hours ago</p>
+                    <p><a class="author-of-first" href="">Ivan Mehta</a> • 12 hours ago</p>
                 </div>
                 </article>
             </div>
@@ -441,7 +441,10 @@
 
         <div>
             <section class="first-news-section last-deals-section">
-                <h2><a href="#">Latest deals ></a></h2>
+                <div class="deals-head">
+                    <h2><a href="#">Latest deals ></a></h2>
+                    <p><a class="more-deals" href="#">See all deals</a></p>
+                </div>
                 <div class="grid-wrapper">
                 <article class="first-articles">
                     <a href=""><img class="first-images last-images" src="assets/images/sale1.jpg" alt="data science"></a>
@@ -525,9 +528,9 @@
         </div>
 
         <div class="credits-container">
-            <p><img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo" style="width:38px;height:9px"> © 2006–2020 The Next Web B.V.</p>
+            <p><a href=""><img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="logo" style="width:38px;height:9px"></a> © 2006–2020 The Next Web B.V.</p>
             <p>Made with <b class="love">♥</b> in Amsterdam.</p>
-            <p>Powered by <img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg" alt="logo" style="width:65px;height:9px"></p>
+            <p>Powered by <a href=""><img src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/stackpath.svg" alt="logo" style="width:65px;height:9px"></a></p>
         </div>
     </footer>
     
